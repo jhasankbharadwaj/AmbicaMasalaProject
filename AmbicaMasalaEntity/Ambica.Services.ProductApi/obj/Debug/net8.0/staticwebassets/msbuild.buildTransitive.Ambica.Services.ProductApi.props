@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ambica.Services.ProductApi.props" />
+</Project>

@@ -1,0 +1,6 @@
+@Ambica.Services.ProductApi_HostAddress = http://localhost:5028
+
+GET {{Ambica.Services.ProductApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
