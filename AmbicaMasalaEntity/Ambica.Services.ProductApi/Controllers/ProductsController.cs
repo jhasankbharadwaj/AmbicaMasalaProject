@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Ambica.Services.ProductApi.Data;
+using Ambica.Services.ProductApi.model;
+using Ambica.Services.ProductApi.Repository;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,11 +11,20 @@ namespace Ambica.Services.ProductApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        private readonly IProductService _productService;
+
+            public ProductsController(IProductService productService)
+        {
+            _productService = productService;
+        }
+
+
         // GET: api/<ProductsController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult GetDetails()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(_productService.GetAll());
+              
         }
 
         // GET api/<ProductsController>/5
@@ -24,8 +36,10 @@ namespace Ambica.Services.ProductApi.Controllers
 
         // POST api/<ProductsController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> Post([FromBody] Product product)
         {
+            bool result =  _productService.PostAddProduct(product);
+            return Ok(result);
         }
 
         // PUT api/<ProductsController>/5
@@ -36,8 +50,11 @@ namespace Ambica.Services.ProductApi.Controllers
 
         // DELETE api/<ProductsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            var result =_productService.PutDeleteById(id);
+
+            return Ok(result);
         }
     }
 }

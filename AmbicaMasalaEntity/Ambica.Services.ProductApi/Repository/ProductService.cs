@@ -1,12 +1,20 @@
-﻿using Ambica.Services.ProductApi.model;
+﻿using Ambica.Services.ProductApi.Data;
+using Ambica.Services.ProductApi.model;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Ambica.Services.ProductApi.Repository
 {
     public class ProductService : IProductService
     {
-        public Product GetAll()
+        private readonly ProductContext _productContext;
+        public ProductService(ProductContext productContext)
         {
-            throw new NotImplementedException();
+            _productContext = productContext;
+        }
+
+        public List<Product> GetAll()
+        {
+            return _productContext.products.ToList();
         }
 
         public Product GetById(int id)
@@ -14,9 +22,26 @@ namespace Ambica.Services.ProductApi.Repository
             throw new NotImplementedException();
         }
 
-        public Product PostAddProduct()
+        public bool  PostAddProduct(Product product)
         {
-            throw new NotImplementedException();
+            if (product == null)
+            {
+                return false;
+            }
+
+            //Product product1 = new Product()
+            //{
+            //    Name = product.Name,
+            //    Price = product.Price,
+            //    Availability = product.Availability,
+            //    Quantity = product.Quantity,
+            //};
+
+            _productContext.products.Add(product);
+            _productContext.SaveChanges();
+
+            return true;
+            
         }
 
         public Product PostUpdateProduct()
@@ -24,9 +49,18 @@ namespace Ambica.Services.ProductApi.Repository
             throw new NotImplementedException();
         }
 
-        public void PutDeleteById(int id)
+        public bool PutDeleteById(int id)
         {
-            throw new NotImplementedException();
+            var product= _productContext.products.FirstOrDefault(x => x.Id==id);
+
+            if (product == null) { return false; }
+
+            _productContext.products.Remove(product);
+            _productContext.SaveChanges();
+
+            return true;
+
+
         }
     }
 }

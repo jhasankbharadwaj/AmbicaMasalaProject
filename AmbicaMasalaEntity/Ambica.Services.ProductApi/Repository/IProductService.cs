@@ -4,13 +4,13 @@ namespace Ambica.Services.ProductApi.Repository
 {
     public interface IProductService
     {
-        public Product GetAll();
+        public List<Product> GetAll();
 
         public Product GetById(int id);
 
-        public void PutDeleteById(int id);
+        public bool PutDeleteById(int id);
 
-        public Product PostAddProduct();
+        public bool  PostAddProduct(Product product);
 
         public Product PostUpdateProduct();
 

@@ -1,6 +1,8 @@
 
 using Ambica.Services.ProductApi.Data;
+using Ambica.Services.ProductApi.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Ambica.Services.ProductApi
 {
@@ -23,7 +25,14 @@ namespace Ambica.Services.ProductApi
             {
                 option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            //  interface dependency injition
+            builder.Services.AddTransient<IProductDisplayDtoService, ProductDisplayDtoService>();
+            builder.Services.AddTransient<IProductService, ProductService>();
+
             var app = builder.Build();
+
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());// used to 
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
