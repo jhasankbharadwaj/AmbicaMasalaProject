@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\OwnProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T13:02:10.941Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Ambica.Services.ProductApi\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T12:57:17.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T12:57:17.891Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Ambica.Services.ProductApi\\Data\\ProductContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAtwBUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T12:53:10.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T12:53:10.265Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Ambica.Services.ProductApi\\model\\Product.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T12:52:22.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T12:52:22.721Z"
             }
           ]
         }
