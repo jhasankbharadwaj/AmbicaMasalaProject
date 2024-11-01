@@ -1,8 +1,11 @@
 
+using Ambica.Services.ProductApi.Configurations;
 using Ambica.Services.ProductApi.Data;
 using Ambica.Services.ProductApi.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using AutoMapper;
+using Ambica.Services.ProductApi.Repository.IRepository;
+
 
 namespace Ambica.Services.ProductApi
 {
@@ -18,8 +21,8 @@ namespace Ambica.Services.ProductApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            
-            
+
+
             //sql dependency ingition 
             builder.Services.AddDbContext<ProductContext>(option =>
             {
@@ -30,8 +33,13 @@ namespace Ambica.Services.ProductApi
             builder.Services.AddTransient<IProductDisplayDtoService, ProductDisplayDtoService>();
             builder.Services.AddTransient<IProductService, ProductService>();
 
-            var app = builder.Build();
+            //AutoMapper injition 
+            builder.Services.AddAutoMapper(typeof(AutoMapperConfig).Assembly);
 
+
+            var app = builder.Build();
+            
+            // cross origin resource sharing . 
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());// used to 
 
             // Configure the HTTP request pipeline.

@@ -1,5 +1,6 @@
 ﻿using Ambica.Services.ProductApi.Data;
 using Ambica.Services.ProductApi.model;
+using Ambica.Services.ProductApi.Repository.IRepository;
 using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Ambica.Services.ProductApi.Repository

@@ -1,6 +1,6 @@
 ﻿using Ambica.Services.ProductApi.model;
 
-namespace Ambica.Services.ProductApi.Repository
+namespace Ambica.Services.ProductApi.Repository.IRepository
 {
     public interface IProductService
     {
@@ -10,7 +10,7 @@ namespace Ambica.Services.ProductApi.Repository
 
         public bool PutDeleteById(int id);
 
-        public bool  PostAddProduct(Product product);
+        public bool PostAddProduct(Product product);
 
         public Product PostUpdateProduct();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ambica.Services.ProductApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78d82074c83902c26a04dceb661551e4e66be1f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5643223d7a06460d9c236177d89067a7eaeed40c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ambica.Services.ProductApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ambica.Services.ProductApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
