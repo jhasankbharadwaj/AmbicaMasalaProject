@@ -1,8 +1,8 @@
 <section class="ProductDisplay">
   @for (item of productsList; track $index) {
 <div class="card spice-card">
-    <img src="LandingPageImg/masala karam.png" alt="mirchi powder">
-    <div class="card-content">
+  <img src="LandingPageImg/{{item.name}}.jpg" alt="mirchi powder">
+  <div class="card-content">
   <h3>{{item.name}}</h3>
       <p>{{item.quantity}}</p>
       <div class="price">₹{{item.price }}</div>

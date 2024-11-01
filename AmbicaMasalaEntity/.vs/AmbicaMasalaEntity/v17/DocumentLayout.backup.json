@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\OwnProject\\AmbicaMasalaEntity\\",
+  "WorkspaceRootPath": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|c:\\users\\administrator\\desktop\\ownproject\\ambicamasalaentity\\ambica.services.productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -16,6 +17,37 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|c:\\users\\administrator\\desktop\\ownproject\\ambicamasalaentity\\ambica.services.productapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\repository\\productdisplaydtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\repository\\productdisplaydtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\model\\dto\\productdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\model\\dto\\productdisplaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\ambica.services.productapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\ambica.services.productapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|e:\\ambicamasalaproject\\ambicamasalaentity\\ambica.services.productapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 474124f75f6368b1e06ee8cc0e1372a947448b9a
       "RelativeMoniker": "D:0:0:{E8B2B104-96B0-4612-B938-067A7789FF20}|Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj|solutionrelative:ambica.services.productapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,6 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -39,11 +72,44 @@
               "ViewState": "AgIAACwAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T13:02:10.941Z",
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:36:19.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDisplayDtoService.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Repository\\ProductDisplayDtoService.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Repository\\ProductDisplayDtoService.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Repository\\ProductDisplayDtoService.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\Repository\\ProductDisplayDtoService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:24:29.241Z",
+>>>>>>> 474124f75f6368b1e06ee8cc0e1372a947448b9a
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\OwnProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Program.cs",
               "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Program.cs",
@@ -64,10 +130,48 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAtwBUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T12:53:10.265Z"
+=======
+              "Title": "ProductDisplayDto.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\model\\Dto\\ProductDisplayDto.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\model\\Dto\\ProductDisplayDto.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\model\\Dto\\ProductDisplayDto.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\model\\Dto\\ProductDisplayDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:24:03.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Configurations\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Configurations\\AutoMapperConfig.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Configurations\\AutoMapperConfig.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\Configurations\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:06:00.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ambica.Services.ProductApi",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\Ambica.Services.ProductApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-31T11:04:33.659Z",
+              "EditorCaption": ""
+>>>>>>> 474124f75f6368b1e06ee8cc0e1372a947448b9a
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\OwnProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\model\\Product.cs",
               "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\model\\Product.cs",
@@ -76,6 +180,43 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T12:52:22.721Z"
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Program.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Program.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Program.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T12:57:17.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Data\\ProductContext.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\Data\\ProductContext.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\Data\\ProductContext.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\Data\\ProductContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T12:53:10.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\model\\Product.cs",
+              "RelativeDocumentMoniker": "Ambica.Services.ProductApi\\model\\Product.cs",
+              "ToolTip": "E:\\AmbicaMasalaProject\\AmbicaMasalaEntity\\Ambica.Services.ProductApi\\model\\Product.cs",
+              "RelativeToolTip": "Ambica.Services.ProductApi\\model\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T12:52:22.721Z",
+              "EditorCaption": ""
+>>>>>>> 474124f75f6368b1e06ee8cc0e1372a947448b9a
             }
           ]
         }

@@ -21,8 +21,29 @@ namespace Ambica.Services.ProductApi.Data
                 Price = 250,
                 Quantity = 500
             });
-
-
+            modelBuilder.Entity<Product>().HasData(new Product
+            {
+                Id = 1113,
+                Name = "Dhania Powder",
+                Availability = true,
+                Price = 50,
+                Quantity = 100
+            });
+            modelBuilder.Entity<Product>().HasData(new Product {
+                Id = 1114,
+                Name = "Masala Kharam",
+                Availability = true,
+                Price = 180,
+                Quantity = 500
+            });
+            modelBuilder.Entity<Product>().HasData(new Product
+            {
+                Id = 1115,
+                Name = "Haldi Powder",
+                Availability = true,
+                Price = 180,
+                Quantity = 500
+            });
 
         }
 

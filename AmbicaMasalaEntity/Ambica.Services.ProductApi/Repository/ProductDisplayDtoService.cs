@@ -1,34 +1,30 @@
 ﻿using Ambica.Services.ProductApi.Data;
 using Ambica.Services.ProductApi.model.Dto;
+using Ambica.Services.ProductApi.Repository.IRepository;
+using AutoMapper;
 using Humanizer;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ambica.Services.ProductApi.Repository
 {
     public class ProductDisplayDtoService :IProductDisplayDtoService
     {
         private readonly ProductContext _productContext;//
+        private readonly IMapper _mapper;
 
-        public ProductDisplayDtoService(ProductContext productContext)
+
+        public ProductDisplayDtoService(ProductContext productContext, IMapper mapper)
         {
             _productContext = productContext;
+            _mapper = mapper;
 
         }
 
+        //writing an dto and map<lst<dto>>(_db.dbset.ToList())
         public async Task<List<ProductDisplayDto>> GetProduct()
         {
-            List<ProductDisplayDto> l= new List<ProductDisplayDto>();
-            var lis = _productContext.products;           
-            foreach(var i in lis )
-            {
-                l.Add(new ProductDisplayDto()
-                {
-                    Name = i.Name,
-                    Price = i.Price,
-                    Quantity = i.Quantity,
-                    Availability = i.Availability
-                });
-            }
-            return  l;
+           var productData=_mapper.Map<List<ProductDisplayDto>>(_productContext.products.ToListAsync());
+            return productData;
         }
     }
 }

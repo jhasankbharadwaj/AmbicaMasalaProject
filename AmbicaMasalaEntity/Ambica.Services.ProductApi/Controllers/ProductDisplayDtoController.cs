@@ -1,6 +1,6 @@
 ﻿using Ambica.Services.ProductApi.model;
 using Ambica.Services.ProductApi.model.Dto;
-using Ambica.Services.ProductApi.Repository;
+using Ambica.Services.ProductApi.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
