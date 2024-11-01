@@ -776,3 +776,5 @@ E:\AmbicaMasalaProject\AmbicaMasalaEntity\Ambica.Services.ProductApi\obj\Debug\n
 E:\AmbicaMasalaProject\AmbicaMasalaEntity\Ambica.Services.ProductApi\obj\Debug\net8.0\ref\Ambica.Services.ProductApi.dll
 E:\AmbicaMasalaProject\AmbicaMasalaEntity\Ambica.Services.ProductApi\bin\Debug\net8.0\AutoMapper.dll
 E:\AmbicaMasalaProject\AmbicaMasalaEntity\Ambica.Services.ProductApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Administrator\Desktop\OwnProject\AmbicaMasalaEntity\Ambica.Services.ProductApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Administrator\Desktop\OwnProject\AmbicaMasalaEntity\Ambica.Services.ProductApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

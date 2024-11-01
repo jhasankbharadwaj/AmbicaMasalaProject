@@ -23,7 +23,7 @@ namespace Ambica.Services.ProductApi.Repository
         //writing an dto and map<lst<dto>>(_db.dbset.ToList())
         public async Task<List<ProductDisplayDto>> GetProduct()
         {
-           var productData=_mapper.Map<List<ProductDisplayDto>>(_productContext.products.ToListAsync());
+           var productData=_mapper.Map<List<ProductDisplayDto>>(_productContext.products);
             return productData;
         }
     }

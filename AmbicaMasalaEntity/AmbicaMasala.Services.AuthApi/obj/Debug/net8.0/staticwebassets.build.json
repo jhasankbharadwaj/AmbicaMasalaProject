@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "P4y9vO/JFAwjNEuXH19HTYNkwkFGTssA0EpsdvhsRvk=",
+  "Source": "AmbicaMasala.Services.AuthApi",
+  "BasePath": "_content/AmbicaMasala.Services.AuthApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

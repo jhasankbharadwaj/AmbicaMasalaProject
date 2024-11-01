@@ -13,7 +13,8 @@ namespace Ambica.Services.ProductApi.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Product>().HasData(new Product
+
+                modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 1112,
                 Name = "Mirchi Powder",
@@ -21,7 +22,7 @@ namespace Ambica.Services.ProductApi.Data
                 Price = 250,
                 Quantity = 500
             });
-            modelBuilder.Entity<Product>().HasData(new Product
+                modelBuilder.Entity<Product>().HasData(new Product
             {
                 Id = 1113,
                 Name = "Dhania Powder",

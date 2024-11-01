@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AmbicaMasala.Services.AuthApi.props" />
+</Project>
