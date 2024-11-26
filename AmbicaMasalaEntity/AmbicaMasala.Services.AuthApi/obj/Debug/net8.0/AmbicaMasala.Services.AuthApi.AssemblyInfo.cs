@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmbicaMasala.Services.AuthApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc179567b4cf8dab1e91f9d53a6337ab29dfba0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25bf79c6b11c8865eadb49e3bd20f9a7d2c968f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmbicaMasala.Services.AuthApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmbicaMasala.Services.AuthApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
