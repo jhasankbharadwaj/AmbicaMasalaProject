@@ -1,1 +1,35 @@
-<p>registration works!</p>
+<div class="center-container">
+    <form [formGroup]='rigistrationForm' (ngSubmit)="onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" formControlName="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" formControlName="email" type="email">
+      </div>
+      <div>
+        <label>Gender: </label>
+        <label for="male">Male</label>
+        <input type="radio" id=male formControlName="gender" value="Male" >
+      </div>
+      <div>
+        <label for="female">Female</label>
+        <input type="radio" id=female formControlName="gender" value="Female" >
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input id="password" formControlName="password" type="password">
+      </div>
+      <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input id="confirmPassword" formControlName="confirmPassword" type="password">
+      </div>
+      <div>
+        <label for="address">Address:</label>
+        <input id="address" formControlName="address">
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  

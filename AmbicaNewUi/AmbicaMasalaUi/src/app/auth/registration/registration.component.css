@@ -1,0 +1,177 @@
+
+* {
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        -45deg, 
+        #f0f4f8, 
+        #e0e7ff, 
+        #fae6e6, 
+        #f0f0f0
+    );
+    background-size: 400% 400%;
+    animation: gradientFlow 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.center-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    padding: 40px;
+    perspective: 1000px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards 0.3s;
+    transform: rotateX(10deg);
+    transition: all 0.5s ease;
+}
+
+.center-container:hover {
+    transform: rotateX(0) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+form {
+    display: grid;
+    gap: 20px;
+    position: relative;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Staggered animations for form elements */
+form > div:nth-child(1) { animation: fadeInUp 0.6s forwards 0.4s; }
+form > div:nth-child(2) { animation: fadeInUp 0.6s forwards 0.5s; }
+form > div:nth-child(3),
+form > div:nth-child(4) { animation: fadeInUp 0.6s forwards 0.6s; }
+form > div:nth-child(5) { animation: fadeInUp 0.6s forwards 0.7s; }
+form > div:nth-child(6) { animation: fadeInUp 0.6s forwards 0.8s; }
+form > div:nth-child(7) { animation: fadeInUp 0.6s forwards 0.9s; }
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+input {
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    transform: scale(1.02);
+}
+
+/* Radio button styling */
+input[type="radio"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    accent-color: #6366f1;
+}
+
+.radio-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards 1s;
+    position: relative;
+    overflow: hidden;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: all 0.5s ease;
+}
+
+button:hover::before {
+    left: 100%;
+}
+
+button:hover {
+    background-color: #4f46e5;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+    animation: pulse 0.5s;
+}
+
+@media (max-width: 600px) {
+    .center-container {
+        width: 95%;
+        padding: 20px;
+    }
+}
