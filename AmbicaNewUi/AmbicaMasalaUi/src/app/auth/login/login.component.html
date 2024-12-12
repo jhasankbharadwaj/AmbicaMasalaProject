@@ -20,9 +20,10 @@
         </div>
       </div>
   
-      <button type="submit" [disabled]="loginForm.invalid">Login</button>
+      <!-- <button type="submit" href="/customerlanding" [disabled]="loginForm.invalid">Login</button> -->
+      <button [routerLink]="'/customerlanding'" type="submit">login</button>
 
-      <button [routerLink]="['registration']" type="button">Register</button>
+      <button [routerLink]="'/registration'" type="button">Register</button>
     </form>
 
   </div>

@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { AbstractControl, FormBuilder,FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-registration',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule,RouterLink,RouterOutlet],
   templateUrl: './registration.component.html',
   styleUrl: './registration.component.css'
 })
@@ -26,8 +27,8 @@ export class RegistrationComponent {
 
   passwordMatchValidator(control: AbstractControl): { [key: string]: boolean } | null {
     const password = control.get('password')?.value;
-    const confirmPassword = control.get('confirmPassword')?.value;
-    if (password && confirmPassword && password !== confirmPassword) {
+    const conformPassword = control.get('conformPassword')?.value;
+    if (password && conformPassword && password !== conformPassword) {
       return { mismatch: true };
     }
     return null;
